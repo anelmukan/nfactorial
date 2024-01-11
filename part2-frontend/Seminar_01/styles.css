@@ -1,0 +1,59 @@
+/* div button:nth-child(even) {
+  background-color: rgb(223, 23, 23);
+}
+
+div button:nth-child(odd) {
+  background-color: rgb(127, 127, 245);
+} */
+
+.container {
+  margin-top: 50px;
+  width: 100%;
+  background-color: blue;
+  display: flex;
+}
+
+.child {
+  width: 50px;
+  flex: 1;
+  height: 100px;
+  background-color: cyan;
+  border: 1px solid black;
+}
+
+.container .child:nth-child(even) {
+  background-color: green;
+  flex: 1;
+}
+
+.container .child:nth-child(odd) {
+  background-color: orange;
+  flex: 5;
+}
+
+/* .enabled_btn {
+  background-color: #712fff;
+  border: 0;
+  color: white;
+  padding: 10px 24px 10px 24px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+
+.enabled_btn:hover {
+  background-color: blueviolet;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.disabled_btn {
+  background-color: #712fff;
+  border: 0;
+  color: white;
+  padding: 10px 24px 10px 24px;
+  margin-top: 10px;
+  border-radius: 100px;
+}
+.disabled_btn:disabled {
+  background-color: #1f1f1f1f;
+  color: gray;
+} */

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  gap: 165px;
+}
+.main_text {
+  font-weight: 700;
+  font-size: 54;
+}
+
+.description_text {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.main_btn {
+  background-color: purple;
+  color: white;
+  border-radius: 100px;
+  border: 0;
+  padding: 16px 24px 16px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.left_content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-left: 80px;
+}
+
+.right_content {
+  width: 100%;
+  height: 458px;
+  background-image: url('./image.png');
+  padding-right: 80px;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 50px;
+}
+
+.main_image {
+  width: 687px;
+  height: 458px;
+  border-radius: 50px;
+}
+
+.dollar_image {
+  top: 10;
+  left: 40;
+  position: absolute;
+}
+
+.fire_image {
+  bottom: 0;
+  position: absolute;
+}
